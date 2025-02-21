@@ -22,7 +22,7 @@
                     <dd>
                         <a href="https://www.baidu.com/" target="_blank">
                             <span>
-                                <img src="../assets/minilogo1.jpg">
+                                <img src="../assets/minilogo1.jpg"/>
                             </span>
                             <span>百度知道</span>
                             <span>强大的搜索引擎</span>
