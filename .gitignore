@@ -1,5 +1,6 @@
 node_modules
 node_modules/
+node_modules.
 # Logs
 logs
 *.log
@@ -28,4 +29,5 @@ coverage
 *.sln
 *.sw?
 
-*.tsbuildinfo
+# *.tsbuildinfo
+# node_modules/.vite/deps/_metadata.json
