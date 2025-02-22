@@ -25,6 +25,9 @@
                         <a class="clearfix footer-site" href="http://www.olinking.com" target="_blank">
                             <span class="footer-ico pull-left">
                                 <img src="../assets/minilogo1.jpg">
+                        <a href="https://www.csdn.net/" target="_blank" style="display: block;">
+                            <span>
+                                <img src="../assets/minilogo1.jpg"/>
                             </span>
                             <span class="websit-name">医药之梯人才网</span>
                             <span>免费发布职位并下载简历</span>

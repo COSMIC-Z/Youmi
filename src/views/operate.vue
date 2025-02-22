@@ -1,18 +1,15 @@
 <!-- 众创运营 -->
-
 <template>
-    <div class="home">
-        <h1>众创运营</h1>
-    </div>
+  <div class="operate">
+    <div class="bannerWrap"></div>
+  </div>
 </template>
 
-<script>
+<script></script>
 
-</script>
-
-<style>
-    .home {
-        width: 100%;
-        height: 800px;
-    }
-</style>
+<!-- <style lang="scss" scoped>
+.home {
+  width: 100%;
+  height: 800px;
+}
+</style> -->
