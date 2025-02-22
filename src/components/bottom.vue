@@ -3,12 +3,12 @@
         <div class="main">
             <div class="left">
                 <dl class="about-us">
-                    <dt class="company-name">关于我们</dt>
+                    <dt style="font-size: 20px;color: #ffffff;">有米科技有限公司</dt>
                     <dd>
                         <p>中国医药产业咨询领导者</p>
                         <p>
                             产业咨询热线<br>
-                            <b style="font-size: 30px;color: rgb(42, 42, 155);margin-top: 10px;">
+                            <b style="font-size: 25px;line-height: 40px;color: #2e6fd1;">
                                 400-138-6860
                             </b>
                         </p>
@@ -17,11 +17,11 @@
                         <p>运营总部：杭州市西湖区塘苗路40号南望大厦</p>
                     </dd>
                 </dl>
-                <dl class="">
+                <dl>
                     <dt>产品和服务</dt>
                     <dd>
-                        <a href="https://www.csdn.net/" target="_blank" style="display: block;">
-                            <span>
+                        <a class="footer-site" href="https://www.csdn.net/" target="_blank">
+                            <span class="footer-ico">
                                 <img src="../assets/minilogo1.jpg">
                             </span>
                             <span>百度知道</span>
@@ -29,17 +29,23 @@
                         </a>
                     </dd>
                 </dl>
-                <dl style="margin: 50px 80px 0 40px;">
-                    <a href="https://www.csdn.net/" target="_blank">是卖医药猎头</a>
-                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
-                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
-                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                <dl class="footer-link">
+                    <dt></dt>
+                    <dd>
+                        <a href="https://www.csdn.net/" target="_blank">是卖医药猎头</a>
+                        <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                        <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                        <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                    </dd>
                 </dl>
-                <dl style="margin: 50px 0 0;">
-                    <a href="https://www.csdn.net/" target="_blank">是卖医药猎头</a>
-                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
-                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
-                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                <dl class="footer-link">
+                    <dt></dt>
+                    <dd>
+                        <a href="https://www.csdn.net/" target="_blank">是卖医药猎头</a>
+                        <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                        <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                        <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                    </dd>
                 </dl>
             </div>
             <div class="right">
@@ -62,65 +68,67 @@
 </script>
 
 <style>
+    @import "../assets/css/main.css";
     .bottom {
         width: 100%;
-        height: 350px;
+        padding: 20px 0;
+        color: #b0aeae;
         background-color: #000000;
         justify-content: center;
-    }
-
-    .main {
-        width: 1100px;
-        height: 90%;
-        margin: auto;
-        display: flex;
-    }
-
-    .main .left {
-        width: 900px;
-        height: 100%;
-        display: flex;
-    }
-
-    .main .left a {
-        color: #e2e2e2;
-        text-decoration: none;
-        line-height: 35px;
-        display: block;
-    }
-
-    .main .left .about-us {
-        width: 300px;
-        height: 100%;
-        font-size: 12px;
-        color: rgb(211, 211, 211);
-    }
-
-    .left dt {
-        font-size: 20px;
-        color: white;
-        display: inline-block;
-        border-bottom: 2px solid rgb(32, 63, 121);
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-    }
-
-    .main .left dd {
-        margin-inline-start: 0;
-    }
-
-    .footer {
-        width: 1100px;
-        height: 9%;
-        margin: auto;
-        border-top: 1px solid rgb(211, 211, 211);
-        display: flex;
-        justify-content: center;
+        .main {
+            width: 1100px;
+            height: 90%;
+            margin: auto;
+            display: flex;
+            .left {
+                width: 900px;
+                height: 100%;
+                display: flex;
+                .about-us {
+                    height: 100%;
+                }
+                .footer-site {
+                    display: block;
+                    margin-bottom: 38px;
+                    line-height: 13px;
+                    font-size: 14px;
+                    white-space: nowrap;
+                    color: #b0aeae;
+                }
+                a {
+                    line-height: 30px;
+                    display: block;
+                }
+                dt {
+                    display: inline-block;
+                    border-bottom: 2px solid #16419e;
+                    margin-bottom: 20px;
+                    padding-bottom: 10px;
+                }
+                dd {
+                    margin-inline-start: 0;
+                    margin-bottom: 30px;
+                }
+                dl {
+                    float: left;
+                    margin-right: 40px;
+                }
+                .footer-link {
+                    margin: 0 20px;
+                }
+            }
+        }
+        .footer {
+            width: 1100px;
+            height: 9%;
+            margin: auto;
+            border-top: 1px solid #b0aeae;
+            display: flex;
+            justify-content: center;
+        }
     }
 
     li {
-        font-size: 12px;
-        color: rgb(211, 211, 211);
         list-style: none;
         font-family: "微软雅黑", sans-serif;
         margin-top: 10px;

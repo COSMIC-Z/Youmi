@@ -12,32 +12,56 @@
         </swiper-slide>
       </swiper>
     </div>
-    <div class="title">
+    <div class="title w1100">
         <div class="line"></div>
         <div class="main-title">核心业务介绍</div>
     </div>
-    <div class="introduce">
-        <div class="item">
-
-        </div>
-        <div class="item">
-
-        </div>
-        <div class="item">
-
-        </div>
-        <div class="item">
-
-        </div>
-        <div class="item">
-
-        </div>
-        <div class="item">
-
-        </div>
+    <div class="introduce w1100">
+        <a class="item" href="https://www.csdn.net/" target="_blank">
+            <img src="../assets/business_core1.png">
+            <div class="item-content">
+                <div class="item-title">6类“咨询+”服务</div>
+                <div class="item-info">专业&落地</div>
+            </div>
+        </a>
+        <a class="item" href="https://www.csdn.net/" target="_blank">
+            <img src="../assets/business_core2.png">
+            <div class="item-content">
+                <div class="item-title">6类“咨询+”服务</div>
+                <div class="item-info">专业&落地</div>
+            </div>
+        </a>
+        <a class="item" href="https://www.csdn.net/" target="_blank">
+            <img src="../assets/business_core3.png">
+            <div class="item-content">
+                <div class="item-title">6类“咨询+”服务</div>
+                <div class="item-info">专业&落地</div>
+            </div>
+        </a>
+        <a class="item" href="https://www.csdn.net/" target="_blank">
+            <img src="../assets/business_core4.png">
+            <div class="item-content">
+                <div class="item-title">6类“咨询+”服务</div>
+                <div class="item-info">专业&落地</div>
+            </div>
+        </a>
+        <a class="item" href="https://www.csdn.net/" target="_blank">
+            <img src="../assets/business_core5.png">
+            <div class="item-content">
+                <div class="item-title">6类“咨询+”服务</div>
+                <div class="item-info">专业&落地</div>
+            </div>
+        </a>
+        <a class="item" href="https://www.csdn.net/" target="_blank">
+            <img src="../assets/business_core6.png">
+            <div class="item-content">
+                <div class="item-title">6类“咨询+”服务</div>
+                <div class="item-info">专业&落地</div>
+            </div>
+        </a>
     </div>
     <div class="introduce-content">
-        <div class="process">
+        <div class="process w1100">
             <h1>以数字化方式提供产业咨询、招商落地、生态运营服务</h1>
             <div class="img">
                 <img src="../assets/section0-img.png">
@@ -51,7 +75,7 @@
         <div class="line"></div>
         <div class="main-title">服务对象</div>
     </div>
-    <div class="service">
+    <div class="service w1100">
         <ul>
             <li>
                 <img src="../assets/schema_server01.png">
@@ -63,9 +87,36 @@
                     <span>产业基金</span>
                 </div>
             </li>
-            <li>a</li>
-            <li>a</li>
-            <li>a</li>
+            <li>
+                <img src="../assets/schema_server02.png">
+                <b>各级政府</b>
+                <div>
+                    <span>产业规划</span>
+                    <span>招商策划</span>
+                    <span>招商代理</span>
+                    <span>产业基金</span>
+                </div>
+            </li>
+            <li>
+                <img src="../assets/schema_server03.png">
+                <b>各级政府</b>
+                <div>
+                    <span>产业规划</span>
+                    <span>招商策划</span>
+                    <span>招商代理</span>
+                    <span>产业基金</span>
+                </div>
+            </li>
+            <li>
+                <img src="../assets/schema_server04.png">
+                <b>各级政府</b>
+                <div>
+                    <span>产业规划</span>
+                    <span>招商策划</span>
+                    <span>招商代理</span>
+                    <span>产业基金</span>
+                </div>
+            </li>
         </ul>
     </div>
     <div class="title">
@@ -73,15 +124,17 @@
         <div class="main-title">服务流程</div>
     </div>
     <div class="service-process">
-        <div class="content-stage">
-            <b>合作沟通流程</b>
-            <img src="../assets/lc1.jpg">
+        <div class="w1100">
+            <div class="content-stage">
+                <b>合作沟通流程</b>
+                <img src="../assets/lc1.jpg">
+            </div>
         </div>
-    </div>
-    <div class="service-process">
-        <div class="content-stage">
-            <b>合作沟通流程</b>
-            <img src="../assets/lc2.jpg">
+        <div class="w1100">
+            <div class="content-stage">
+                <b>合作沟通流程</b>
+                <img src="../assets/lc2.jpg">
+            </div>
         </div>
     </div>
   </div>
@@ -104,57 +157,53 @@ export default {
 </script>
 
 <style>
+    @import "../assets/scss/main.scss";
 .banner {
-  height: 400px;
-  width: 100%;
-  min-width: 1100px;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.swiper-slide img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-
-.title {
-  height: 50px;
-  width: 1100px;
-  margin: auto;
-  padding-top: 10px;
-  text-align: center;
-}
-
-.title .main-title {
-    width: 150px;
-    margin: -20px auto 0;
-    font-size: 24px;
-    color: #444444;
-    background: #ffffff;
-}
-
-.title .line {
-    width: 230px;
-    height: 2px;
-    background: #acacac;
-    margin: 20px auto 0;
+    height: 400px;
+    width: 100%;
+    min-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
 }
 
 .introduce {
     height: 400px;
-    width: 1100px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.introduce .item {
-    height: 40%;
-    width: 350px;
-    background-color: #8f4f4f;
+    .item {
+        width: 310px;
+        height: 100px;
+        background: #fff;
+        margin-bottom: 43px;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        padding: 45px 20px 0 20px;
+        display: flex;
+        transition: box-shadow 0.3s ease;
+        img {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px
+        }
+        .item-title {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+        .item-info {
+            color: #a0a0a0;
+        }
+        &:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    }
 }
 
 .introduce-content {
@@ -164,103 +213,86 @@ export default {
 }
 
 .process {
-    width: 1100px;
-    margin: auto;
     display: flex;
     flex-direction: column;
-    text-align: center; /* 确保文本水平居中 */
-}
-
-.process h1 {
-    margin: 0;
-    padding: 50px;
-    color: #ebebeb;
-}
-
-.process .img {
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.process .img img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-
-.process p {
-    width: 100%;
-    height: 80%;
-    margin: 30px 0 ;
-    padding: 30px 80px 30px;
-    line-height: 40px;
-    color: #ebebeb;
-    box-sizing: border-box;
-    border: 1px solid rgb(247, 197, 34);
-    border-radius: 10px;
+    text-align: center; 
+    h1 {
+        margin: 0;
+        padding: 50px;
+        color: #ebebeb;
+    }
+    .img {
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+    p {
+        width: 100%;
+        height: 80%;
+        margin: 30px 0 ;
+        padding: 30px 80px 30px;
+        line-height: 40px;
+        color:#eeeeee;
+        box-sizing: border-box;
+        border: 1px solid rgb(247, 197, 34);
+        border-radius: 10px;
+    }
 }
 
 .service {
-    width: 1100px;
-    margin: auto;
-}
-
-.service ul {
-    padding: 0;
-    display: flex;
-}
-
-.service li {
-    width: 265px;
-    background: #fff;
-    margin: 0 10px;
-    padding: 30px;
-    text-align: center;
-    border: 3px solid #c5c9ff;
-    border-radius: 6px;
-}
-
-.service li img {
-    width: 48px;
-    display: inline-block;
-}
-
-.service li b {
-    display: block;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: #00306e;
-    font-size: 18px;
-}
-
-.service li span {
-    display: inline-block;
-    background: #f3f5f8;
-    color: #5f7292;
-    border-radius: 2px;
-    margin-left: 4px;
-    margin-right: 2px;
-    margin-bottom: 10px;
-    padding: 4px 0px;
-    width: 82px;
-    text-align: center;
+    ul {
+        padding: 0;
+        display: flex;
+    }
+    li {
+        width: 265px;
+        background: #fff;
+        margin: 0 10px;
+        padding: 30px;
+        text-align: center;
+        border: 3px solid #c5c9ff;
+        border-radius: 6px;
+        img {
+            width: 48px;
+            display: inline-block;
+        }
+        b {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color: #00306e;
+            font-size: 18px;
+        }
+        span {
+            display: inline-block;
+            background: #f3f5f8;
+            color: #5f7292;
+            border-radius: 2px;
+            margin-left: 4px;
+            margin-right: 2px;
+            margin-bottom: 10px;
+            padding: 4px 0px;
+            width: 82px;
+            text-align: center;
+        }
+    }
 }
 
 .service-process {
-    width: 1100px;
+    width: 100%;
     background-color: #fff;
-    margin: auto;
-}
-
-.service-process .content-stage {
-    padding: 30px 0 30px;
-    color: #666;
-}
-
-.service-process .content-stage img {
-    margin-top: 20px;
+    .content-stage {
+        padding: 30px 0 30px;
+        img {
+            margin-top: 20px;
+        }
+    }
 }
 </style>
