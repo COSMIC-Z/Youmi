@@ -1,5 +1,3 @@
-#file:d:\COSMIC\vue\Youmi\src\views\home.vue
-home.vue
 <!-- 首页 -->
 
 <template>
@@ -14,32 +12,31 @@ home.vue
         </swiper-slide>
       </swiper>
     </div>
+    <div class="title">
+        <div class="line"></div>
+        <div class="main-title">核心业务介绍</div>
+    </div>
     <div class="introduce">
-        <div class="title">
+        <div class="item">
 
         </div>
-        <div class="content">
-            <div class="item">
+        <div class="item">
 
-            </div>
-            <div class="item">
+        </div>
+        <div class="item">
 
-            </div>
-            <div class="item">
+        </div>
+        <div class="item">
 
-            </div>
-            <div class="item">
+        </div>
+        <div class="item">
 
-            </div>
-            <div class="item">
+        </div>
+        <div class="item">
 
-            </div>
-            <div class="item">
-
-            </div>
         </div>
     </div>
-    <div class="item">
+    <div class="introduce-content">
         <div class="process">
             <h1>以数字化方式提供产业咨询、招商落地、生态运营服务</h1>
             <div class="img">
@@ -50,8 +47,42 @@ home.vue
             </p>
         </div>
     </div>
-    <div>
-      <!-- 其他内容 -->
+    <div class="title">
+        <div class="line"></div>
+        <div class="main-title">服务对象</div>
+    </div>
+    <div class="service">
+        <ul>
+            <li>
+                <img src="../assets/schema_server01.png">
+                <b>各级政府</b>
+                <div>
+                    <span>产业规划</span>
+                    <span>招商策划</span>
+                    <span>招商代理</span>
+                    <span>产业基金</span>
+                </div>
+            </li>
+            <li>a</li>
+            <li>a</li>
+            <li>a</li>
+        </ul>
+    </div>
+    <div class="title">
+        <div class="line"></div>
+        <div class="main-title">服务流程</div>
+    </div>
+    <div class="service-process">
+        <div class="content-stage">
+            <b>合作沟通流程</b>
+            <img src="../assets/lc1.jpg">
+        </div>
+    </div>
+    <div class="service-process">
+        <div class="content-stage">
+            <b>合作沟通流程</b>
+            <img src="../assets/lc2.jpg">
+        </div>
     </div>
   </div>
 </template>
@@ -76,6 +107,7 @@ export default {
 .banner {
   height: 400px;
   width: 100%;
+  min-width: 1100px;
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -83,47 +115,56 @@ export default {
 
 .swiper-slide img {
   width: 100%;
-  height: 100%;
+  height: 400px;
   object-fit: cover;
 }
 
-.introduce {
-  height: 400px;
+.title {
+  height: 50px;
   width: 1100px;
   margin: auto;
-  background-color: green;
+  padding-top: 10px;
+  text-align: center;
 }
 
-.introduce .title {
-  height: 10%;
-  width: 100%;
-  background-color: red;
+.title .main-title {
+    width: 150px;
+    margin: -20px auto 0;
+    font-size: 24px;
+    color: #444444;
+    background: #ffffff;
 }
 
-.introduce .content {
-    height: 90%;
-    width: 100%;
+.title .line {
+    width: 230px;
+    height: 2px;
+    background: #acacac;
+    margin: 20px auto 0;
+}
+
+.introduce {
+    height: 400px;
+    width: 1100px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: blue;
 }
 
-.introduce .content .item {
+.introduce .item {
     height: 40%;
     width: 350px;
     background-color: #8f4f4f;
 }
 
-.item {
+.introduce-content {
     width: 100%;
     height: 500px;
-    background-color: #2d4097;
+    background-color: #182972;
 }
 
 .process {
     width: 1100px;
-    height: 400px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -159,5 +200,67 @@ export default {
     box-sizing: border-box;
     border: 1px solid rgb(247, 197, 34);
     border-radius: 10px;
+}
+
+.service {
+    width: 1100px;
+    margin: auto;
+}
+
+.service ul {
+    padding: 0;
+    display: flex;
+}
+
+.service li {
+    width: 265px;
+    background: #fff;
+    margin: 0 10px;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid #c5c9ff;
+    border-radius: 6px;
+}
+
+.service li img {
+    width: 48px;
+    display: inline-block;
+}
+
+.service li b {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #00306e;
+    font-size: 18px;
+}
+
+.service li span {
+    display: inline-block;
+    background: #f3f5f8;
+    color: #5f7292;
+    border-radius: 2px;
+    margin-left: 4px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    padding: 4px 0px;
+    width: 82px;
+    text-align: center;
+}
+
+.service-process {
+    width: 1100px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.service-process .content-stage {
+    padding: 30px 0 30px;
+    color: #666;
+}
+
+.service-process .content-stage img {
+    margin-top: 20px;
 }
 </style>

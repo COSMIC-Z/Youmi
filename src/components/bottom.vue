@@ -17,10 +17,10 @@
                         <p>运营总部：杭州市西湖区塘苗路40号南望大厦</p>
                     </dd>
                 </dl>
-                <dl>
+                <dl class="">
                     <dt>产品和服务</dt>
                     <dd>
-                        <a href="https://www.baidu.com/" target="_blank">
+                        <a href="https://www.csdn.net/" target="_blank" style="display: block;">
                             <span>
                                 <img src="../assets/minilogo1.jpg"/>
                             </span>
@@ -29,9 +29,23 @@
                         </a>
                     </dd>
                 </dl>
+                <dl style="margin: 50px 80px 0 40px;">
+                    <a href="https://www.csdn.net/" target="_blank">是卖医药猎头</a>
+                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                </dl>
+                <dl style="margin: 50px 0 0;">
+                    <a href="https://www.csdn.net/" target="_blank">是卖医药猎头</a>
+                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                    <a href="https://www.csdn.net/" target="_blank">医药产业需求</a>
+                </dl>
             </div>
             <div class="right">
-
+                <div>
+                    <img width="120" src="../assets/weixin.png">
+                </div>
             </div>
         </div>
         <div class="footer">
@@ -50,7 +64,7 @@
 <style>
     .bottom {
         width: 100%;
-        height: 400px;
+        height: 350px;
         background-color: #000000;
         justify-content: center;
     }
@@ -59,12 +73,20 @@
         width: 1100px;
         height: 90%;
         margin: auto;
+        display: flex;
     }
 
     .main .left {
         width: 900px;
         height: 100%;
         display: flex;
+    }
+
+    .main .left a {
+        color: #e2e2e2;
+        text-decoration: none;
+        line-height: 35px;
+        display: block;
     }
 
     .main .left .about-us {
@@ -102,5 +124,9 @@
         list-style: none;
         font-family: "微软雅黑", sans-serif;
         margin-top: 10px;
+    }
+
+    .right {
+        margin-top: 80px;
     }
 </style>
