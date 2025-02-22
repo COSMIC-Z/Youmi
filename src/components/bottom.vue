@@ -23,6 +23,9 @@
                         <a class="footer-site" href="https://www.csdn.net/" target="_blank">
                             <span class="footer-ico">
                                 <img src="../assets/minilogo1.jpg">
+                        <a href="https://www.csdn.net/" target="_blank" style="display: block;">
+                            <span>
+                                <img src="../assets/minilogo1.jpg"/>
                             </span>
                             <span>百度知道</span>
                             <span>强大的搜索引擎</span>
