@@ -31,3 +31,4 @@ npm run dev
 ```sh
 npm run build
 ```
+## Now using node v18.19.0 (64-bit)

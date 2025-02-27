@@ -85,7 +85,7 @@
 
 </script>
 
-<style>
+<style scoped>
     @import "../assets/css/main.css";
     @import "../assets/css/common.css";
     .bottom {
