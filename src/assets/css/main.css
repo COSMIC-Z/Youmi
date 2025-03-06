@@ -61,7 +61,7 @@ a {
 }
 .footer-wrap dt {
   display: inline-block;
-  border-bottom: 2px solid #00306e;
+  border-bottom: 2px solid #7e0045;
   margin-bottom: 28px;
   padding-bottom: 14px;
 }
@@ -97,4 +97,24 @@ a {
   color: #b0aeae;
   display: block;
   margin-bottom: 16px;
+}
+
+.titleHox {
+  margin: 40px 0;
+  height: 60px;
+  border-bottom: 1px solid #d8d8d8;
+  line-height: 60px;
+  color: #444444;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.serviceSite .desTitle {
+  color: #555;
+  line-height: 30px;
+  font-size: 16px;
+  padding: 20px;
+  margin: 20px auto 20px;
+  overflow: hidden;
+  text-align: center;
 }
